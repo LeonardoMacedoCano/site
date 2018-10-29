@@ -4,17 +4,6 @@
     80%{-webkit-transform: translateY(-10px); transform: translateY(-10px);}
 }
 
-.construcao{
-    float: right;
-    color:rgb(251, 255, 0);
-    background-color: rgba(199, 202, 30, 0.25);
-    font-style: italic;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 12px;
-}
-
 .titulo{
     color: rgb(255, 145, 0);
     font-size: 32px;
