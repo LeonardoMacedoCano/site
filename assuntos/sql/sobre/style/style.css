@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+
+.area{
+    background-color: aliceblue;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 15px;
+}
