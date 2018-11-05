@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="pt_BR">
+    <head>
+        <meta charset="utf-8" />
+        <title>Fale Conosco</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    </head>
+    <body> 
+        <div class="tela">
+            <div class="carta" data-anime="top">
+                <br>
+                <br>
+                <center>
+                    <strong>
+                        <h1>Fale Conosco</h1>
+                    </strong>
+                </center>
+                <form action="email.php" method="POST">
+                    <strong> 
+                        <p>Nome:
+                    </strong>
+                        <input type="text" name="nome" class="dadosNome" placeholder="Digite seu nome (Obrigatório)" required>
+                        Telefone:
+                        <input type="text" name="telefone" class="dadosTelefone" placeholder="Digite seu telefone (Opcional)">
+                    </p>
+                    <strong>
+                        <p>E-mail:
+                    </strong>
+                        <input type="email" name="email" class="dadosEmail" placeholder="Digite seu e-mail (Obrigatório)" required>
+                    </p>
+                    <strong>
+                        <p>Você tem alguma ideia para envelopar?</p>
+                    </strong>
+                    <textarea name="mensagem" placeholder="Digite aqui a sua mensagem (Obrigatório)" required></textarea>
+                    <br>
+                    <center>
+                        <input type="submit" class="enviar" value="Enviar">
+                    </center>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

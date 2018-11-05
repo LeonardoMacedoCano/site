@@ -1,0 +1,74 @@
+h1{
+    color: rgb(94, 86, 86);
+}
+
+p{
+    color: rgb(94, 86, 86);
+    margin-left: 80px;
+}
+
+/*fundo de tela*/
+.tela{
+    margin:auto;
+    max-width: 800px;
+    min-width: 800px;
+    background-color: #ffffff;
+}
+
+/*imagem da carta*/
+.carta{
+    position: absolute;
+    width: 800px;
+    height: 545px;
+    background-image: url("https://thumbs.dreamstime.com/b/alte-postkartenschablone-mit-dem-beschneidungspfad-eingeschlossen-57217284.jpg");
+    background-repeat: no-repeat;
+}
+
+/*dados do usuario*/
+.dadosEmail{
+    width: 81%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid 1px rgb(94, 86, 86);
+}
+
+.dadosNome{
+    width: 45%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid 1px rgb(94, 86, 86);
+}
+
+.dadosTelefone{
+    width: 27%;
+    background-color: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid 1px rgb(94, 86, 86);
+}
+
+/*mensagem do usuario*/
+textarea{
+    margin-left: 80px;
+    width: 640px;
+    height: 220px;
+    color:rgb(88, 94, 86);
+    border: 1px solid;
+    background-color: rgb(243, 239, 203);
+    resize: none;
+}
+
+/*botao enviar*/
+.enviar{
+    background-color: rgb(4, 99, 12);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

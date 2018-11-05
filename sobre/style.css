@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+#area{
+    background-color: aliceblue;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/*Efeito*/
+
+.efeito1{
+    border: none;
+    color: blueviolet;
+    font-size: 10px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.efeito-1{
+    background-color: transparent;
+}
+    
+.efeito-1:before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 5px;
+    margin-top: 10px;
+    background: blueviolet;
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+    
+.efeito-1:hover:before{
+    width: 100%;
+}
